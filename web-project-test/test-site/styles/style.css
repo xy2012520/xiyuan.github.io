@@ -1,0 +1,63 @@
+/* 元素选择器 */
+p{
+    color:red;
+    width:500px;
+    border: 1px solid black;
+}
+/* 多个元素选择器 */
+li ,h3{
+    color:blue;
+    width:200px;
+}
+/* ID 选择器,选择 <p class="my-class"> 和 <a class="my-class"> */
+#my-title{
+    color:aqua;
+    width:100px;
+    border: 1px solid red;
+}
+/* 类选择器,选择 <p class="my-class"> 和 <a class="my-class"> */
+.cs-title{
+    color:brown;
+    width:100px;
+    border: 1px solid blue;
+}
+/* 特定状态下的特定元素（比如鼠标指针悬停）,仅在鼠标指针悬停在链接上时选择 ,*/
+a:hover{
+    color:coral;
+    width:100px;
+}
+/* 为文档体内的元素（<h2>、<a> 和 <ol>）设置字号。将标题居中显示，并为正文设置行高和字间距， */
+h2{
+    font-size: 60px;
+    text-align: center;
+}    
+a, ol{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+/* 更改页面颜色 */
+html{
+    background-color: #f0f0f0
+}
+/* 文档体格式设置 */
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+}
+/* 定位页面主标题并添加样式 */
+h1{
+    text-align: center;
+    margin: 0 ;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+/* 图像居中 */
+img{
+    display: block;
+    margin: 0 auto;
+}
